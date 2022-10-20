@@ -46,12 +46,9 @@ class Client:
 
 
     def year(self):
-        s = (sum * 15)/100
+        sum *= 0.15
 
-        for i in 365:
-            sum = s+sum
-
-    print( sum)
+        print( sum)
 
 
 client = Client("Jack", "Smith", "Tom", 15, 4700, 1102022)
